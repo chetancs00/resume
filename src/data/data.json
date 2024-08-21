@@ -6,7 +6,7 @@
       "startDate": "Oct 01, 2018",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with over {{experience}} of experience in React, Angular, MFE, JavaScript, etc. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "bio": "Web developer with {{experience}} of experience specializing in React, Angular, and Micro Frontend (MFE) architecture. Adept at delivering efficient, high-quality solutions with a focus on modularity and scalability. Recognized consistently for performance excellence and innovation in web development",
     "isBioVisible": true,
     "contact": [
       {
@@ -108,43 +108,41 @@
               "name": "Citizens Bank",
               "technologies": ["Angular", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
               "responsibilities": [
-                "Migrated monolithic frontend application to Micro Frontend using Single SPA and Module Federation",
-                "Decreased the overall build time by 60%",
-                "Created in browser module for robust communication in between MFEs",
-                "Internal ng-library to provide modularity to reuse the code"
+                "Migrated legacy monolithic architecture to MFE to enable modular deployment and independent scaling",
+                "Optimized build pipeline, reducing overall build time by 60% through effective modularization and automation strategies.",
+                "Created in browser module for robust communication in between MFEs and internal ng-library to provide modularity to reuse the code"
               ]
             },
             {
               "name": "Allstate (CEME)",
               "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins", "Datadog"],
               "responsibilities": [
-                "Eureka award for developing the standalone webapp to generate the auth token",
+                "Eureka award for developing the standalone webapp to automate and generate the auth token for session",
                 "Created dynamic UI to handle data directly from backend (logicless UI)"
               ]
             },
             {
               "name": "Kraft Heinz",
-              "technologies": ["Angular", "Git", "Azure"],
+              "technologies": ["Angular", "Git", "Azure", "Jira"],
               "responsibilities": [
-                "Awarded as the best young developer for the web app development",
-                "Boosted user experience scores by 55% over company-wide previous best for sales team",
-                "Completed 3 web apps to manage the high sensitive sales data"
+                "Recognized as the \"Best Young Developer\" for delivering an intuitive, high-performance application tailored to sales team needs",
+                "Developed and deployed three web apps to manage high-sensitivity sales data, boosting overall user experience scores by 55%"
               ]
             },
             {
               "name": "Airbus",
-              "technologies": ["React", "Git", "ExpressJS"],
+              "technologies": ["React", "Git", "ExpressJS", "MongoDB", "Redux"],
               "responsibilities": [
-                "Developed a robust react application to manage millions of entries",
+                "Built a robust app to efficiently manage millions of data entries with high performance and reliability",
                 "Provided web accessibility to enhance user experience",
                 "Created a light weight express server to perform internal operations"
               ]
             }
           ],
           "description": [
-            "Developed well designed, testable, efficient code by using best software development practices",
-            "Managed the modularity of the application to reduce the redundancy of the code",
-            "Participated in internal hackathons and interview activities"
+            "Developed scalable, modular code following best practices, leading to a 60% reduction in build time by optimizing the migration to MFE architecture",
+            "Improved CI/CD processes by integrating automated testing, monitoring, and deployment tools like Jenkins, SonarQube, and Datadog",
+            "Mentored junior developers and contributed to internal hackathons, earning recognition for innovation and technical excellence"
           ],
           "showDescription": true
         },
@@ -159,8 +157,8 @@
               "name": "Apple",
               "technologies": ["React", "ReconJS", "Mustache", "SCSS", "GIT"],
               "responsibilities": [
-                "Provided web accessibility to enhance user experience",
-                "Upgraded existing web components to latest stack with new features",
+                "Improved accessibility across multiple web components, ensuring compliance with WCAG standards and delivering an inclusive user experience",
+                "Upgraded the existing mustache template driven components to the latest technology stack, integrating new features and enhancing performance",
                 "Providing optimized solutions for performance"
               ]
             }
@@ -169,7 +167,7 @@
             "Enhanced and maintained web accessibility across various web apps while enhancing the user experience",
             "Upgraded existing web app to available newer stack as per the standards"
           ],
-          "showDescription": true
+          "showDescription": false
         }
       ]
     }
@@ -214,7 +212,7 @@
     {
       "name": "Dev Social Media",
       "technologies": ["MERN", "Git", "Redux", "Heroku"],
-      "desc": "A social platform where developers can connect, post and handle their profiles",
+      "desc": "A social platform where developers can connect, post, and manage their profiles",
       "link": "https://geekyorion.github.io/devSocialMedia/",
       "isHidden": false
     }, {
@@ -232,7 +230,7 @@
     }, {
       "name": "FreeCodeCamp",
       "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
-      "desc": "10 small projects based on certification",
+      "desc": "10 small projects based on FreeCodeCamp certification",
       "link": "https://geekyorion.github.io/freecodecamp/",
       "isHidden": false
     }
