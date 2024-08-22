@@ -106,7 +106,7 @@
           "projects": [
             {
               "name": "Citizens Bank",
-              "technologies": ["Angular", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
+              "technologies": ["Angular", "TypeScript", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
               "responsibilities": [
                 "Migrated legacy monolithic architecture to MFE to enable modular deployment and independent scaling",
                 "Optimized build pipeline, reducing overall build time by 60% through effective modularization and automation strategies.",
@@ -123,7 +123,7 @@
             },
             {
               "name": "Kraft Heinz",
-              "technologies": ["Angular", "Git", "Azure", "Jira"],
+              "technologies": ["Angular", "TypeScript", "Git", "Azure", "Jira"],
               "responsibilities": [
                 "Recognized as the \"Best Young Developer\" for delivering an intuitive, high-performance application tailored to sales team needs",
                 "Developed and deployed three web apps to manage high-sensitivity sales data, boosting overall user experience scores by 55%"
@@ -355,12 +355,12 @@
     "skills": [
       {
         "rating": 5,
-        "technologies": ["React", "JS", "Angular", "CSS", "HTML"],
+        "technologies": ["React", "JavaScript", "Angular", "CSS", "HTML"],
         "info": "Excellent"
       },
       {
         "rating": 4,
-        "technologies": ["Express", "Git", "version1", "ThreeJS"],
+        "technologies": ["Express", "Git", "version1", "ThreeJS", "TypeScript"],
         "info": "Very Good"
       },
       {
