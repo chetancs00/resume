@@ -1,17 +1,17 @@
 {
   "header": {
-    "name": "Shashank Sharma",
-    "role": "Specialist Programmer at Infosys",
+    "name": "Chetan Sharma",
+    "role": "Frontend Developer at ProProfs",
     "overallExperience": {
-      "startDate": "Oct 01, 2018",
+      "startDate": "Apr 21, 2022",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with {{experience}} of experience specializing in React, Angular, and Micro Frontend (MFE) architecture. Adept at delivering efficient, high-quality solutions with a focus on modularity and scalability. Recognized consistently for performance excellence and innovation in web development",
+    "bio": "Web developer with {{experience}} of experience specializing in React, javascript, HTML, CSS. Adept at delivering efficient, high-quality solutions with a focus on modularity and scalability. Recognized consistently for performance excellence and innovation in web development",
     "isBioVisible": true,
     "contact": [
       {
         "type": "email",
-        "value": "shashank.ns67@gmail.com",
+        "value": "chetan99sharma.cs@gmail.com",
         "isHidden": false,
         "icon": "email"
       }, {
@@ -22,12 +22,12 @@
       }, {
         "type": "website",
         "value": "Resume",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "website",
         "link": "https://geekyorion.github.io/resume"
       }, {
         "type": "address",
-        "value": "Hyderabad, Telangana",
+        "value": "Noida, Uttar Pradesh",
         "isHidden": false,
         "icon": "address"
       }
@@ -35,34 +35,34 @@
     "links": [
       {
         "type": "GitHub",
-        "value": "https://github.com/geekyorion",
+        "value": "https://github.com/chetancs00",
         "isHidden": false,
         "icon": "github"
       }, {
         "type": "LinkedIn",
-        "value": "https://linkedin.com/in/geekyorion",
+        "value": "https://linkedin.com/in/chetan-sharma-988559147/",
         "isHidden": false,
         "icon": "linkedin"
       }, {
         "type": "HackerRank",
         "value": "https://hackerrank.com/geekyorion",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "hackerrank"
       }, {
         "type": "Medium",
         "value": "https://geekyorion.medium.com/",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "medium"
       }, {
         "type": "NPM",
         "value": "https://npmjs.com/~geekyorion",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "npm",
         "iconClass": "scaled-up-icon"
       }, {
         "type": "NPX Card",
         "value": "https://www.npmjs.com/package/geekyorion",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "terminal"
       }, {
         "type": "Twitter",
@@ -78,7 +78,7 @@
     ],
     "image": {
       "imageName": "profile.jpeg",
-      "showImage": true
+      "showImage": false
     },
     "badges": {
       "isHidden": true,
@@ -90,52 +90,27 @@
   },
   "experience": [
     {
-      "company": "Infosys Ltd",
+      "company": "ProProfs",
       "duration": {
-        "from": "21 May, 2018",
+        "from": "24 June, 2024",
         "to": "present"
       },
-      "location": "Hyderabad, Telangana",
+      "location": "Noida, Uttar Pradesh",
       "work": [
         {
-          "role": "Specialist Programmer",
+          "role": "Frontend Developer",
           "duration": {
-            "from": "1 Jul, 2020",
+            "from": "24 June, 2024",
             "to": "present"
           },
           "projects": [
             {
-              "name": "Citizens Bank",
-              "technologies": ["Angular", "TypeScript", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
+              "name": "Qualaroo",
+              "technologies": ["React JS", "JavaScript"],
               "responsibilities": [
-                "Migrated legacy monolithic architecture to MFE to enable modular deployment and independent scaling",
-                "Optimized build pipeline, reducing overall build time by 60% through effective modularization and automation strategies.",
-                "Created in browser module for robust communication in between MFEs and internal ng-library to provide modularity to reuse the code"
-              ]
-            },
-            {
-              "name": "Allstate (CEME)",
-              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins", "Datadog"],
-              "responsibilities": [
-                "Eureka award for developing the standalone webapp to automate and generate the auth token for session",
-                "Created dynamic UI to handle data directly from backend (logicless UI)"
-              ]
-            },
-            {
-              "name": "Kraft Heinz",
-              "technologies": ["Angular", "TypeScript", "Git", "Azure", "Jira"],
-              "responsibilities": [
-                "Recognized as the \"Best Young Developer\" for delivering an intuitive, high-performance application tailored to sales team needs",
-                "Developed and deployed three web apps to manage high-sensitivity sales data, boosting overall user experience scores by 55%"
-              ]
-            },
-            {
-              "name": "Airbus",
-              "technologies": ["React", "Git", "ExpressJS", "MongoDB", "Redux"],
-              "responsibilities": [
-                "Built a robust app to efficiently manage millions of data entries with high performance and reliability",
-                "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perform internal operations"
+                "Survey Status Management Feature: Developed a feature that allows users to change the status of their surveys, improving survey management and usability within the platform. This feature enhanced user control and streamlined workflows for survey creators.",
+                "Advanced Survey Reporting: Engineered a robust reporting system that processes and visualizes survey responses, enabling users to extract key insights through data-driven dashboards and analytics.",
+                "Performance Optimization: Implemented lazy loading and code splitting techniques, reducing page load times and improving app performance."
               ]
             }
           ],
@@ -144,28 +119,48 @@
             "Improved CI/CD processes by integrating automated testing, monitoring, and deployment tools like Jenkins, SonarQube, and Datadog",
             "Mentored junior developers and contributed to internal hackathons, earning recognition for innovation and technical excellence"
           ],
-          "showDescription": true
-        },
+          "showDescription": false
+        }
+      ]
+    },
+    {
+      "company": "Plutonic Services Pvt. Ltd.",
+      "duration": {
+        "from": "25 April, 2022",
+        "to": "05 May, 2024"
+      },
+      "location": "Noida, Uttar Pradesh",
+      "work": [
         {
-          "role": "Systems Engineer",
+          "role": "Fullstack Developer",
           "duration": {
-            "from": "01 Oct, 2018",
-            "to": "30 Jun, 2020"
+            "from": "25 April, 2022",
+            "to": "05 May, 2024"
           },
           "projects": [
             {
-              "name": "Apple",
-              "technologies": ["React", "ReconJS", "Mustache", "SCSS", "GIT"],
+              "name": "HRMS",
+              "technologies": ["React JS", "MFE (Single SPA)", "Git"],
               "responsibilities": [
-                "Improved accessibility across multiple web components, ensuring compliance with WCAG standards and delivering an inclusive user experience",
-                "Upgraded the existing mustache template driven components to the latest technology stack, integrating new features and enhancing performance",
-                "Providing optimized solutions for performance"
+                "Designed and implemented a comprehensive HR Management System (HRMS) using React, streamlining HR processes for over 1000+ employees.",
+                "Improved User Experience: Boosted employee satisfaction by 50% by developing interactive React components for project assignment, dynamic settings, vendor, inventory, and leave management, ensuring a user-friendly and adaptable work environment.",
+                "Scalable Architecture: Employed React’s component- based architecture to facilitate future growth and integration of new functionalities as the company scales."
+              ]
+            },
+            {
+              "name": "CA Cloud Desk",
+              "technologies": ["React", "Git"],
+              "responsibilities": [
+                "Developed a scalable, real-time collaboration platform for CA Cloud Desk using React , supporting over 10,000 Chartered Accountants, Company Secretaries, and tax professionals",
+                "Enhanced Communication: Reduced response times by 25% through integrating Socket.IO for real-time communication, enabling instant document updates, team collaboration, and faster client service.",
+                "Robust Data Management: Leveraged React's state management to ensure data consistency and real-time updates across all user interfaces, reducing errors and improving data integrity"
               ]
             }
           ],
           "description": [
-            "Enhanced and maintained web accessibility across various web apps while enhancing the user experience",
-            "Upgraded existing web app to available newer stack as per the standards"
+            "Developed scalable, modular code following best practices, leading to a 60% reduction in build time by optimizing the migration to MFE architecture",
+            "Improved CI/CD processes by integrating automated testing, monitoring, and deployment tools like Jenkins, SonarQube, and Datadog",
+            "Mentored junior developers and contributed to internal hackathons, earning recognition for innovation and technical excellence"
           ],
           "showDescription": false
         }
@@ -176,81 +171,67 @@
     {
       "type": "Graduation",
       "degree": "B.Tech.",
-      "school": "Poornima Group of Institutions, Jaipur",
-      "score": "78.93% (Hons.)",
+      "school": "Jaipur National University, Jaipur",
       "isHidden": false,
       "duration": {
-        "from": "July, 2014",
-        "to": "May, 2018"
+        "from": "August, 2015",
+        "to": "June, 2019"
       },
       "isGraduation": true
     }, {
       "type": "Senior Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
-      "score": "75.6%",
+      "school": "Vivekananda Kendra Vidyalaya, Dibrugarh, Assam",
+      "score": "74.8%",
       "isHidden": true,
       "duration": {
         "from": "Jun, 2012",
-        "to": "May, 2013"
+        "to": "May, 2014"
       },
       "isGraduation": false
     }, {
       "type": "Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
-      "score": "79.0%",
+      "school": "Shree Agrasen Academy, Dibrugarh, Assam",
+      "score": "7.4 CGPA",
       "isHidden": true,
       "duration": {
-        "from": "July, 2010",
-        "to": "Jun, 2011"
+        "from": "July, 2011",
+        "to": "Jun, 2012"
       },
       "isGraduation": false
     }
   ],
   "projects": [
     {
-      "name": "Dev Social Media",
-      "technologies": ["MERN", "Git", "Redux", "Heroku"],
-      "desc": "A social platform where developers can connect, post, and manage their profiles",
-      "link": "https://geekyorion.github.io/devSocialMedia/",
+      "name": "Cotion - A Fullstack Notion Clone",
+      "technologies": ["React", "Git", "Redux", "Convex", "ShadCN UI"],
+      "desc": "Cotion is a sophisticated Fullstack Notion alternative, utilizing Next.js, ShadCN UI, and Tailwind CSS for the frontend, and powered by Convex for the backend and database. This meticulously crafted application replicates almost all of Notion's features",
       "isHidden": false
     }, {
-      "name": "Gradient Code",
-      "technologies": ["React", "CSS3", "HTML5 Canvas"],
-      "desc": "A web app to create, save, edit and download the gradients",
-      "link": "https://geekyorion.github.io/gradient_code/",
+      "name": "Personal Portfolio Website",
+      "technologies": ["JavaScript", "CSS3", "HTML5"],
+      "desc": "I have developed a personal portfolio website employing HTML, CSS, and vanilla JavaScript. This project features an integrated contact form, seamlessly linked with Google Sheets for efficient message capture and storage.",
+      "link": "https://portfolio-six-bay-12.vercel.app/",
       "isHidden": false
-    }, {
-      "name": "Libraries",
-      "technologies": ["JavaScript", "React", "Chalk", "Boxen"],
-      "desc": "Published libraries on NPM",
-      "link": "https://npmjs.com/~geekyorion/",
-      "isHidden": true
     }, {
       "name": "FreeCodeCamp",
       "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
       "desc": "10 small projects based on FreeCodeCamp certification",
-      "link": "https://geekyorion.github.io/freecodecamp/",
       "isHidden": false
     }
   ],
   "others": {
-    "achievements": [
-      "Won the most valuable coder for the project (Kraft Heinz)",
-      "Won Infosys awards for most valuable player",
-      "Participated and qualified to the finale round of Smart India Hackathon"
-    ],
     "certificates": [
       {
         "org": "FreeCodeCamp",
-        "name": "Responsive Web Design, DSA using JS, FE libraries",
+        "name": "Responsive Web Design",
         "valid": {
-          "from": "Feb 28, 2021",
+          "from": "Jan 29, 2022",
           "to": "Present"
         },
-        "link": "https://freecodecamp.org/geekyorion",
-        "containsSub": true,
+        "link": "https://www.freecodecamp.org/certification/fcc92a43840-2bfb-4035-8cf3-bc275a661fed/responsive-web-design",
+        "containsSub": false,
         "shouldShowSubs": false,
         "subs": [
           {
@@ -269,103 +250,22 @@
             "issuedOn": "Feb 28, 2021"
           }
         ]
-      },
-      {
-        "org": "HackerRank",
-        "name": "JS, React, Angular, Node, Python, etc.",
-        "valid": {
-          "from": "Sep 10, 2020",
-          "to": "Present",
-          "showCurrent": true
-        },
-        "link": "https://hackerrank.com/geekyorion",
-        "containsSub": true,
-        "shouldShowSubs": false,
-        "subs": [
-          {
-            "name": "Angular (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/e9ad142919e4",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Angular (Basic)",
-            "link": "https://www.hackerrank.com/certificates/899b61d8697d",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Node (Basic)",
-            "link": "https://www.hackerrank.com/certificates/3e1d26024edd",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Rest API (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/ecb0c3c46444",
-            "issuedOn": "Nov 02, 2021"
-          },
-          {
-            "name": "React (Basic)",
-            "link": "https://www.hackerrank.com/certificates/b5c15060f567",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/44f6fbed0bcd",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Basic)",
-            "link": "https://www.hackerrank.com/certificates/dca875bb6044",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Problem Solving (Basic)",
-            "link": "https://www.hackerrank.com/certificates/69d80d724f79",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "CSS",
-            "link": "https://www.hackerrank.com/certificates/118b639cb589",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Python (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/29419a5ae278",
-            "issuedOn": "Sep 11, 2020"
-          },
-          {
-            "name": "Python (Basic)",
-            "link": "https://www.hackerrank.com/certificates/cb508b587b64",
-            "issuedOn": "Sep 10, 2020"
-          }
-        ]
-      },
-      {
-        "org": "Microsoft",
-        "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
-        "valid": {
-          "from": "Jun 04, 2019",
-          "to": "Present"
-        },
-        "link": null,
-        "containsSub": false,
-        "shouldShowSubs": false,
-        "subs": []
       }
     ],
     "skills": [
       {
         "rating": 5,
-        "technologies": ["React", "JavaScript", "Angular", "CSS", "HTML"],
+        "technologies": ["React", "JavaScript", "NextJS", "CSS", "HTML"],
         "info": "Excellent"
       },
       {
-        "rating": 4,
-        "technologies": ["Express", "Git", "version1", "ThreeJS", "TypeScript"],
-        "info": "Very Good"
+        "rating": 3,
+        "technologies": ["Express", "Git", "version1"],
+        "info": "Good"
       },
       {
         "rating": 3,
-        "technologies": ["NodeJS", "MongoDB", "SQL", "Jenkins"],
+        "technologies": ["NodeJS", "MongoDB", "SQL"],
         "info": "Good"
       }
     ],
@@ -374,15 +274,13 @@
       "VSCode",
       "Git",
       "Jira",
-      "Bootstrap Studio",
       "Ubuntu",
       "etc."
     ],
     "interests": ["Chess (Aiming for FIDE Rated player)", "Sudoku", "LoFi Music"],
     "languages": [
       { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
-      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
-      { "language": "Spanish", "rating": 1, "info": "Elementary Proficiency" }
+      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" }
     ],
     "showOnly": {
       "achievements": false,
@@ -395,7 +293,7 @@
   },
   "footer": {
     "info": "Created using ReactJS, Please visit: ",
-    "link": "https://geekyorion.com",
+    "link": "https://github.com/chetancs00/",
     "isHidden": false
   },
   "consent": {
